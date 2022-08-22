@@ -3,8 +3,8 @@
 $curl = curl_init();
 
 //API CREDENTIALS
-$clientId = "ARSqHC295J546ZD6NANrJMi7ZS7YCJhQaQc1qDBwwKY1Aqxkm0YuiSxvBGHzZH4iWMPNynrAu0SeKw-o";
-$secret = "ELenJV_oi9daE2HEZc3HgjO5grCa3DfiUxYuZNg7OSHbOKFU0uncjckPVxzCEThTB-sKqrAgeNbTm86E";
+$clientId = "xxxxxxxxxxxxxxxxxxxxx";
+$secret = "xxxxxxxxxxxxxxxxxxxx";
 
 curl_setopt_array($curl, array(
   CURLOPT_URL => "https://api.sandbox.paypal.com/v1/oauth2/token",
